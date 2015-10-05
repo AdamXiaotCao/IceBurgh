@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6291EFE61BC2EC96002AB0FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6291EFE51BC2EC96002AB0FC /* AppDelegate.swift */; };
+		6291EFEB1BC2EC96002AB0FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6291EFE91BC2EC96002AB0FC /* Main.storyboard */; };
+		6291EFED1BC2EC96002AB0FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6291EFEC1BC2EC96002AB0FC /* Assets.xcassets */; };
+		6291EFF01BC2EC96002AB0FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6291EFEE1BC2EC96002AB0FC /* LaunchScreen.storyboard */; };
+		6291EFFB1BC2EC96002AB0FC /* IceBurghTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6291EFFA1BC2EC96002AB0FC /* IceBurghTests.swift */; };
+		6291F0061BC2EC96002AB0FC /* IceBurghUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6291F0051BC2EC96002AB0FC /* IceBurghUITests.swift */; };
+		62A998B31BC2FAE50082DF02 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A998B21BC2FAE50082DF02 /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		62A998B51BC305F50082DF02 /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A998B41BC305F50082DF02 /* UserDetailsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A43B39A9FE242CBC2BD4C810 /* libPods-IceBurgh.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF620F4FCFB60104AFF21004 /* libPods-IceBurgh.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6291EFF71BC2EC96002AB0FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6291EFDA1BC2EC96002AB0FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6291EFE11BC2EC96002AB0FC;
+			remoteInfo = IceBurgh;
+		};
+		6291F0021BC2EC96002AB0FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6291EFDA1BC2EC96002AB0FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6291EFE11BC2EC96002AB0FC;
+			remoteInfo = IceBurgh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FF752EE66E9BCD10F038120 /* Pods-IceBurgh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IceBurgh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IceBurgh/Pods-IceBurgh.debug.xcconfig"; sourceTree = "<group>"; };
+		6213D7051BC2EF950013CF96 /* IceBurgh-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IceBurgh-Bridging-Header.h"; sourceTree = "<group>"; };
+		6291EFE21BC2EC96002AB0FC /* IceBurgh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IceBurgh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6291EFE51BC2EC96002AB0FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6291EFEA1BC2EC96002AB0FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6291EFEC1BC2EC96002AB0FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6291EFEF1BC2EC96002AB0FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6291EFF11BC2EC96002AB0FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6291EFF61BC2EC96002AB0FC /* IceBurghTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IceBurghTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6291EFFA1BC2EC96002AB0FC /* IceBurghTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceBurghTests.swift; sourceTree = "<group>"; };
+		6291EFFC1BC2EC96002AB0FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6291F0011BC2EC96002AB0FC /* IceBurghUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IceBurghUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6291F0051BC2EC96002AB0FC /* IceBurghUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceBurghUITests.swift; sourceTree = "<group>"; };
+		6291F0071BC2EC96002AB0FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62A998B21BC2FAE50082DF02 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		62A998B41BC305F50082DF02 /* UserDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
+		88664F38E4DE3C9DBDC4AEA9 /* Pods-IceBurgh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IceBurgh.release.xcconfig"; path = "Pods/Target Support Files/Pods-IceBurgh/Pods-IceBurgh.release.xcconfig"; sourceTree = "<group>"; };
+		FF620F4FCFB60104AFF21004 /* libPods-IceBurgh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IceBurgh.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6291EFDF1BC2EC96002AB0FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A43B39A9FE242CBC2BD4C810 /* libPods-IceBurgh.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6291EFF31BC2EC96002AB0FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6291EFFE1BC2EC96002AB0FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		061310482FBDA9E837BD550B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FF752EE66E9BCD10F038120 /* Pods-IceBurgh.debug.xcconfig */,
+				88664F38E4DE3C9DBDC4AEA9 /* Pods-IceBurgh.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6291EFD91BC2EC96002AB0FC = {
+			isa = PBXGroup;
+			children = (
+				6291EFE41BC2EC96002AB0FC /* IceBurgh */,
+				6291EFF91BC2EC96002AB0FC /* IceBurghTests */,
+				6291F0041BC2EC96002AB0FC /* IceBurghUITests */,
+				6291EFE31BC2EC96002AB0FC /* Products */,
+				061310482FBDA9E837BD550B /* Pods */,
+				DCBC92A3A03DD0B4D8B19F5E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6291EFE31BC2EC96002AB0FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6291EFE21BC2EC96002AB0FC /* IceBurgh.app */,
+				6291EFF61BC2EC96002AB0FC /* IceBurghTests.xctest */,
+				6291F0011BC2EC96002AB0FC /* IceBurghUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6291EFE41BC2EC96002AB0FC /* IceBurgh */ = {
+			isa = PBXGroup;
+			children = (
+				6291EFE51BC2EC96002AB0FC /* AppDelegate.swift */,
+				6291EFE91BC2EC96002AB0FC /* Main.storyboard */,
+				62A998B21BC2FAE50082DF02 /* LoginViewController.swift */,
+				62A998B41BC305F50082DF02 /* UserDetailsViewController.swift */,
+				6291EFEC1BC2EC96002AB0FC /* Assets.xcassets */,
+				6291EFEE1BC2EC96002AB0FC /* LaunchScreen.storyboard */,
+				6291EFF11BC2EC96002AB0FC /* Info.plist */,
+				6213D7051BC2EF950013CF96 /* IceBurgh-Bridging-Header.h */,
+			);
+			path = IceBurgh;
+			sourceTree = "<group>";
+		};
+		6291EFF91BC2EC96002AB0FC /* IceBurghTests */ = {
+			isa = PBXGroup;
+			children = (
+				6291EFFA1BC2EC96002AB0FC /* IceBurghTests.swift */,
+				6291EFFC1BC2EC96002AB0FC /* Info.plist */,
+			);
+			path = IceBurghTests;
+			sourceTree = "<group>";
+		};
+		6291F0041BC2EC96002AB0FC /* IceBurghUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6291F0051BC2EC96002AB0FC /* IceBurghUITests.swift */,
+				6291F0071BC2EC96002AB0FC /* Info.plist */,
+			);
+			path = IceBurghUITests;
+			sourceTree = "<group>";
+		};
+		DCBC92A3A03DD0B4D8B19F5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF620F4FCFB60104AFF21004 /* libPods-IceBurgh.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6291EFE11BC2EC96002AB0FC /* IceBurgh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6291F00A1BC2EC96002AB0FC /* Build configuration list for PBXNativeTarget "IceBurgh" */;
+			buildPhases = (
+				4B182359AD0E60F08B056A5F /* Check Pods Manifest.lock */,
+				6291EFDE1BC2EC96002AB0FC /* Sources */,
+				6291EFDF1BC2EC96002AB0FC /* Frameworks */,
+				6291EFE01BC2EC96002AB0FC /* Resources */,
+				38FE0910D274502F0AA9608F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IceBurgh;
+			productName = IceBurgh;
+			productReference = 6291EFE21BC2EC96002AB0FC /* IceBurgh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6291EFF51BC2EC96002AB0FC /* IceBurghTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6291F00D1BC2EC96002AB0FC /* Build configuration list for PBXNativeTarget "IceBurghTests" */;
+			buildPhases = (
+				6291EFF21BC2EC96002AB0FC /* Sources */,
+				6291EFF31BC2EC96002AB0FC /* Frameworks */,
+				6291EFF41BC2EC96002AB0FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6291EFF81BC2EC96002AB0FC /* PBXTargetDependency */,
+			);
+			name = IceBurghTests;
+			productName = IceBurghTests;
+			productReference = 6291EFF61BC2EC96002AB0FC /* IceBurghTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6291F0001BC2EC96002AB0FC /* IceBurghUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6291F0101BC2EC96002AB0FC /* Build configuration list for PBXNativeTarget "IceBurghUITests" */;
+			buildPhases = (
+				6291EFFD1BC2EC96002AB0FC /* Sources */,
+				6291EFFE1BC2EC96002AB0FC /* Frameworks */,
+				6291EFFF1BC2EC96002AB0FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6291F0031BC2EC96002AB0FC /* PBXTargetDependency */,
+			);
+			name = IceBurghUITests;
+			productName = IceBurghUITests;
+			productReference = 6291F0011BC2EC96002AB0FC /* IceBurghUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6291EFDA1BC2EC96002AB0FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Adam Cao";
+				TargetAttributes = {
+					6291EFE11BC2EC96002AB0FC = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					6291EFF51BC2EC96002AB0FC = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 6291EFE11BC2EC96002AB0FC;
+					};
+					6291F0001BC2EC96002AB0FC = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 6291EFE11BC2EC96002AB0FC;
+					};
+				};
+			};
+			buildConfigurationList = 6291EFDD1BC2EC96002AB0FC /* Build configuration list for PBXProject "IceBurgh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6291EFD91BC2EC96002AB0FC;
+			productRefGroup = 6291EFE31BC2EC96002AB0FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6291EFE11BC2EC96002AB0FC /* IceBurgh */,
+				6291EFF51BC2EC96002AB0FC /* IceBurghTests */,
+				6291F0001BC2EC96002AB0FC /* IceBurghUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6291EFE01BC2EC96002AB0FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6291EFF01BC2EC96002AB0FC /* LaunchScreen.storyboard in Resources */,
+				6291EFED1BC2EC96002AB0FC /* Assets.xcassets in Resources */,
+				6291EFEB1BC2EC96002AB0FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6291EFF41BC2EC96002AB0FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6291EFFF1BC2EC96002AB0FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38FE0910D274502F0AA9608F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IceBurgh/Pods-IceBurgh-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B182359AD0E60F08B056A5F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6291EFDE1BC2EC96002AB0FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62A998B31BC2FAE50082DF02 /* LoginViewController.swift in Sources */,
+				6291EFE61BC2EC96002AB0FC /* AppDelegate.swift in Sources */,
+				62A998B51BC305F50082DF02 /* UserDetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6291EFF21BC2EC96002AB0FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6291EFFB1BC2EC96002AB0FC /* IceBurghTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6291EFFD1BC2EC96002AB0FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6291F0061BC2EC96002AB0FC /* IceBurghUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6291EFF81BC2EC96002AB0FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6291EFE11BC2EC96002AB0FC /* IceBurgh */;
+			targetProxy = 6291EFF71BC2EC96002AB0FC /* PBXContainerItemProxy */;
+		};
+		6291F0031BC2EC96002AB0FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6291EFE11BC2EC96002AB0FC /* IceBurgh */;
+			targetProxy = 6291F0021BC2EC96002AB0FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6291EFE91BC2EC96002AB0FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6291EFEA1BC2EC96002AB0FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6291EFEE1BC2EC96002AB0FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6291EFEF1BC2EC96002AB0FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6291F0081BC2EC96002AB0FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6291F0091BC2EC96002AB0FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6291F00B1BC2EC96002AB0FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FF752EE66E9BCD10F038120 /* Pods-IceBurgh.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = IceBurgh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AdamC.IceBurgh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IceBurgh/IceBurgh-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6291F00C1BC2EC96002AB0FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88664F38E4DE3C9DBDC4AEA9 /* Pods-IceBurgh.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = IceBurgh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AdamC.IceBurgh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IceBurgh/IceBurgh-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		6291F00E1BC2EC96002AB0FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IceBurghTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AdamC.IceBurghTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IceBurgh.app/IceBurgh";
+			};
+			name = Debug;
+		};
+		6291F00F1BC2EC96002AB0FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IceBurghTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AdamC.IceBurghTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IceBurgh.app/IceBurgh";
+			};
+			name = Release;
+		};
+		6291F0111BC2EC96002AB0FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IceBurghUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AdamC.IceBurghUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IceBurgh;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6291F0121BC2EC96002AB0FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = IceBurghUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AdamC.IceBurghUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = IceBurgh;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6291EFDD1BC2EC96002AB0FC /* Build configuration list for PBXProject "IceBurgh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6291F0081BC2EC96002AB0FC /* Debug */,
+				6291F0091BC2EC96002AB0FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6291F00A1BC2EC96002AB0FC /* Build configuration list for PBXNativeTarget "IceBurgh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6291F00B1BC2EC96002AB0FC /* Debug */,
+				6291F00C1BC2EC96002AB0FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6291F00D1BC2EC96002AB0FC /* Build configuration list for PBXNativeTarget "IceBurghTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6291F00E1BC2EC96002AB0FC /* Debug */,
+				6291F00F1BC2EC96002AB0FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6291F0101BC2EC96002AB0FC /* Build configuration list for PBXNativeTarget "IceBurghUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6291F0111BC2EC96002AB0FC /* Debug */,
+				6291F0121BC2EC96002AB0FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6291EFDA1BC2EC96002AB0FC /* Project object */;
+}
